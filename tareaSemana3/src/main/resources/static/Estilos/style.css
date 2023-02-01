@@ -1,0 +1,16 @@
+
+
+.nav{
+    
+    background-color: black;
+    padding: 20px;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    
+}
