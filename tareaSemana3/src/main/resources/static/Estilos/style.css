@@ -5,23 +5,39 @@
 }
 
 .nav{
-    
     background-color: black;
+    
     padding: 26px;
     font-size: 25px;
     display: flex;
     justify-content: space-between;
 
 }
+
+
 a{
 
     text-decoration: none;
     color: white;
     margin: 10px;  
 }
-.nav_espacio{
-    margin-left: 25px;
+
+.hoover_nav{
+    background-color: black;
+    color: white;
+    padding: 26px;
+    transition: 0.5s;
+    font-size: 24px;
+    
+    
 }
+.hoover_nav:hover{
+    background-color: white;
+    transition: 0.5s;
+    font-size:25px ;
+    color: black;
+}
+
 .h1{
     text-align: center;
     font-size: 4rem;
@@ -46,7 +62,19 @@ a{
     top: 80px;
     left: 23%;
     width: 74%;
+    bottom: 20px;
+    overflow: scroll;
     
+}
+.div_imagenes{
+    display: flex;
+    justify-content: center;
+}
+.imagenes{
+    
+    
+    width: 300px;
+    height: 300px;
 }
 .h2{
     margin-top: 15px;
@@ -71,6 +99,12 @@ a{
     text-align: center;
     margin-top: 20px;
 }
+
+
+
+
+
+
 
 .footer{
     background-color: black;
