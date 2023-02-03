@@ -69,12 +69,16 @@ a{
 .div_imagenes{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
 }
 .imagenes{
     
     
     width: 300px;
     height: 300px;
+
 }
 .h2{
     margin-top: 15px;
@@ -88,6 +92,7 @@ a{
     text-align: center;
 }
 .info{
+    margin-top: 120px;
     display: grid;
     grid-template-columns:repeat(3 , 2fr);
     gap: 25px;
